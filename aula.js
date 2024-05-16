@@ -1,10 +1,7 @@
- const num = 10
+ const num = 4
 
- if(num % 2 == 0){
-    console.log('É par')
+ if(num % 5 === 0){
+    console.log( num, 'É Divisivel por 5')
  } else {
-    console.log('É impar')
+    console.log(num, 'Não é divisivel por 5')
  }
-
- const resultado = num
- console.log(num)
