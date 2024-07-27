@@ -4,11 +4,8 @@ body{
     background-color: rgba(0, 0, 255, 0.692);
 }
 
-header{
-    text-align: center;
-}
-
 header > h1{
+    text-align: center;
     color: white;
 }
 
