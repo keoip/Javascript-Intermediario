@@ -7,11 +7,15 @@ Voce terá 3 variaveis. Sendo elas:
 
 */
 
-let precoCombustivel = 5.80
-let gastoporKm = 10
-let distanciaViagemKm = 1260
+let calculoViagem = (precoCombustivel, gastoPorKm, distanciaViagemKm)=>{
+    let gasolinaGasta = distanciaViagemKm / gastoPorKm
+    let valorViagem = gasolinaGasta * precoCombustivel
+    return valorViagem.toFixed(2)
+}
 
-let gasolinaGasta = distanciaViagemKm / gastoporKm
-let valorViagem = gasolinaGasta * precoCombustivel
+console.log(calculoViagem(5.80, 10, 1260));
 
-console.log('Com o preco da gasolina estando', precoCombustivel , 'reias Numa distancia de', distanciaViagemKm , 'km temos um valor gasto em torno de', valorViagem.toFixed(2), 'reais' ) 
+
+
+    
+   

@@ -23,10 +23,7 @@ function Imc(peso, altura){
 
 // FUNÇÃO PRINCIPAL QUE SERÁ EXECUTADA APENAS UMA VEZ
 (function () {
-    let peso = 70
-    let altura = 1.75
-
-    let imc = Imc(peso, altura)
+    let imc = Imc(60, 1.70)
     console.log(classifique(imc)) 
 })() // CHAMADA DE FUNÇÃO EM VOLTO DE () E DEPOIS () COMO TODA FUNÇÃO
 

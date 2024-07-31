@@ -1,9 +1,10 @@
-const numero = 1;
 
-const isNumberPar = numero % 2;
-
-if(isNumberPar === 0){
-    console.log('é Par')
-} else {
-    console.log('é Ímpar')
+let condicionalPar = (numero)=>{
+  if(numero % 2 === 0){
+    console.log('É par')
+  } else {
+    console.log('É Ímpar')
+  }
 }
+
+condicionalPar(3);
