@@ -32,6 +32,6 @@ class Imc {
 
 const kelvin = new Imc(63, 1.60, 'kelvin')
 const laura = new Imc(50, 1.55, 'laura')
-console.log(laura.calculo())
-console.log(laura.classifique())
+console.log(kelvin.calculo())
+console.log(kelvin.classifique())
 
